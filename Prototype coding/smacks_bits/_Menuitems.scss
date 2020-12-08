@@ -1,0 +1,97 @@
+//style specific to Menu's items
+.food{
+    h1{
+        text-align: center;
+        padding-bottom: 0.5em;
+        border-bottom: 0.1em $main-color solid;
+        font-family: $font-heading;
+        color: black;
+        a{
+            color: $main-color;
+            padding-right: 0.5em;
+        }
+    }
+    .foodlist{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        padding: 0.5em;
+        padding-bottom: 3em;
+        .title{
+            text-align: center;
+            padding: 1em;
+            .underline{
+                padding-bottom: 0.5em;
+                border-bottom: 0.2em $main-color solid;
+            }
+            h4{
+                margin:0;
+                font-size: 2em;
+                color: black;
+                font-family: $font-heading;
+                a{
+                    color: $main-color;
+                    padding-right: 0.5em;
+                }
+            }
+            h5{
+                margin: 0;
+                color:black;
+                font-size: 0.8em;
+                font-style: italic;
+                padding-bottom: 0.5em;
+                border-bottom: 0.2em $main-color solid;
+            }
+        }
+        li{
+            padding: 1em;
+            h2{
+                font-size: 1.2em;
+                margin: 0;
+                a{
+                    color: $main-color;
+                }
+                i{
+                    color: $main-color;
+                    font-size: 0.8em;
+                }
+            }
+            h3{
+                margin: 0;
+                color: rgba(236, 102, 93, 0.596);
+                font-size: 0.9em;
+            }
+            p{
+                margin: 0;
+                font-size: 0.9em;
+                font-style: italic;
+            }
+        }
+    }
+    .foodnotices{
+        border-radius: 2em;
+        padding: 1.2em;
+        font-size: 0.8em;
+        background-color: rgba(0, 0, 0, 0.87);
+            .foodnotice1{
+                padding: 1em;
+                text-align: center;
+                color: $secondary-color;
+                h4{
+                    color: $main-color;
+                    margin: 0;
+                    padding: 0.5em;
+                }
+            }
+            .foodnotice2{
+                padding: 1em;
+                text-align: center;
+                color: $secondary-color;
+                h4{
+                    color: $main-color;
+                    margin: 0;
+                    padding: 0.5em;
+                }
+            }
+    }
+}

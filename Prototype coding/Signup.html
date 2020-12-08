@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/base-min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="app home">
+
+        <main>
+            <div class="container">
+                <div class="signuppage">
+                    <h1>Create a New Account</h1>
+                    <form action="">
+                        <div class="emailandpassword emailandpassword1">
+                            <input type="text" name="Email/Cell phone" id="Email/Cell phone"
+                                placeholder="Email / Cell phone">
+                        </div>
+                        <div class="emailandpassword emailandpassword2">
+                            <input type="text" name="Password" id="Password" placeholder="Password">
+                        </div>
+                    </form>
+                    <div class="loginandsignup1">
+                        <a href="Home.html">Log in</a>
+                    </div>
+                    <div class="loginandsignup2">
+                        <a href="Home.html">Sign up</a>
+                    </div>
+
+                    <p>Sign up with</p>
+                    <div class="googleandfacebook1">
+                        <a href="Home.html">Google</a>
+                    </div>
+                    <div class="googleandfacebook2">
+                        <a href="Home.html">facebook</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+
+        //when clicking on bars, remove class hide from nav
+        $('.fa-cog').on('click', function () {
+            $('nav2').removeClass('slide')
+        })
+
+        //when clicking on cross, add class hide from nav
+        $('.fa-times').on('click', function () {
+            $('nav2').addClass('slide')
+        })
+
+    </script>
+</body>
+
+</html>

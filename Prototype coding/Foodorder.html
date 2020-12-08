@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/base-min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto&family=Orbitron:wght@500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="app home">
+        <header>
+            <i class="fas fa-cog"></i>
+            <div class="divide">
+                <h0>Seoul Night</h0>
+                <h0> 서 울 나 이 트</h0>
+            </div>
+            <div class="tableorder">
+                <a href="Tableorder.html"><i class="fas fa-file-alt"></i></a>
+            </div>
+        </header>
+        <header2>
+            <nav2 class="slide">
+                <div class="top">
+                    <h1>Settings</h1>
+                    <i class="fas fa-times"></i>
+                </div>
+                <div class="user"><i class="fas fa-user-alt"></i></div>
+                <h2>Anthony020674@gmail.com</h2>
+
+                <ul class="content">
+
+                    <li><a href=""><i class="fas fa-history"></i>Purchase History</a></li>
+
+                    <li><a href=""><i class="fas fa-stopwatch"></i>Track Order</a></li>
+
+                    <li><a href=""><i class="fas fa-dollar-sign"></i>Billing and Payments</a></li>
+
+                    <li><a href=""><i class="fas fa-phone-alt"></i>Call us now</a></li>
+
+                    <li><a href=""><i class="fas fa-redo"></i>Updates</a></li>
+
+                    <li><a href=""><i class="fas fa-sign-out-alt"></i>Log out</a></li>
+                </ul>
+                </nav>
+        </header2>
+
+        <main>
+            <div class="container">
+                <div class="foodorderlist">
+                    <div class="backtospecials"><a href="Menu.html"><i class="fas fa-arrow-circle-left"></i></a>
+                        <h1>Food Order</h1>
+                    </div>
+                    <p>*Below is a list of all your food orders. If you would like to add more to your food list, please
+                        tap the 'Add more to list' button. An approx cooking time for your food can also be viewed.
+                        Please remember to tap the 'Pay at the counter' button before paying at the counter.</p>
+                </div>
+
+                <div class="yourfoodorderlist">
+                    <div class="foodorderlistheadings">
+                        <h2>Food order list</h2>
+                        <h2>Received</h2>
+                    </div>
+
+                    <div class="foodname">
+                        <ul>
+                            <li>KOREAN GRILLED PORK $19</li>
+                            <li>BULGOGI BEEF PIZZA $25</li>
+                            <li>FRIES $5</li>
+                            <li>CHAMISUL FRESH $16</li>
+                            <li>CHAMISUL FRESH $16</li>
+                        </ul>
+                        <ul class="tickandtime">
+                            <li><i class="fas fa-check-square"></i></li>
+                            <li><i class="fas fa-stopwatch"></i>15 mins</li>
+                            <li><i class="fas fa-stopwatch"></i> 5 mins</li>
+                            <li><i class="fas fa-check-square"></i></li>
+                            <li><i class="fas fa-check-square"></i></li>
+                        </ul>
+                    </div>
+
+                    <div class="bottom">
+                        <h3>Total Payments:</h3>
+                        <h3 class="bottomposition">$51</h3>
+                    </div>
+
+
+                    <div class="foodordernowandspecialbtn">
+                        <a class="Addmoretolist" href="Menu.html"><i class="fas fa-plus-circle"></i> Add more food</a>
+                        <a class="Specials" href="Specials.html">Specials</a>
+                    </div>
+
+                    <div class="foodordernowandpay">
+                        <a class="Payatthecounter" href="Completedpaymentforall.html">Pay at counter</a>
+                        <a class="Paynow" href="Paymentsforall.html">Pay now</a>
+                    </div>
+
+                </div>
+        </main>
+        <footer>
+            <div class="footergroup">
+                <a href="Home.html"><i class="fas fa-home">
+                        <h2>Home</h2>
+                    </i></a>
+                <a href="Menu.html"><i class="fas fa-utensils">
+                        <h2>Menu</h2>
+                    </i></a>
+                <a href="Reservation.html"><i class="fas fa-book-open">
+                        <h2>Reservation</h2>
+                    </i></a>
+                <a href="Pickup.html"><i class="fas fa-shopping-bag">
+                        <h2>Pick up</h2>
+                    </i></a>
+                <a href="Specials.html"><i class="fas fa-tag">
+                        <h2>Specials</h2>
+                    </i></a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+
+        //when clicking on bars, remove class hide from nav
+        $('.fa-cog').on('click', function () {
+            $('nav2').removeClass('slide')
+        })
+
+        //when clicking on cross, add class hide from nav
+        $('.fa-times').on('click', function () {
+            $('nav2').addClass('slide')
+        })
+
+    </script>
+</body>
+
+</html>

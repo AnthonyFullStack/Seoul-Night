@@ -1,0 +1,28 @@
+//header setting
+header{
+    background-color: $main-color;
+    color:$secondary-color;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1em;
+    box-sizing: border-box;
+    .divide{
+        font-family: $font-logo;
+        font-weight: bold;
+        display: block;
+        text-align: center;
+        h0{
+            display: block;
+        }
+    }
+    i{
+        font-size: 2em;
+    }
+    a{
+        i{
+            color: white;
+            text-decoration: none;
+        }
+    }
+}

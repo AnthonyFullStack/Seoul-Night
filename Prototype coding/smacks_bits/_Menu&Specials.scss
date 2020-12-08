@@ -1,0 +1,165 @@
+
+//style specific to Menu & Specials
+.boxsection1{
+    width: 100%;
+    background-image: url('asset/AllDayMenu.jpg');
+    @include boxsections();
+    height: 22.42%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a{
+        text-decoration: none;
+    }
+    h3{
+    font-family: $font-heading;
+    opacity: 100%;
+    color: $secondary-color;
+    margin: 0;
+    font-size: 2em;
+    }
+    h3:hover{
+        color: $main-color;
+    }
+}
+
+.boxsection2{
+a{
+    text-decoration: none;
+}
+background-image: url('asset/Snacks.jpg');
+@include boxsections();
+height: 22.42%;
+display: flex;
+justify-content: center;
+align-items: center;
+h3{
+    color: $secondary-color;
+    font-family: $font-heading;
+    margin: 0;
+    font-size: 2em;
+}
+h3:hover{
+    color: $main-color;
+}
+}
+.boxsection3{
+a{
+    text-decoration: none;
+}
+background-image: url('asset/Beverage.jpg');
+@include boxsections();
+height: 22.42%;
+display: flex;
+justify-content: center;
+align-items: center;
+h3{
+    color: $secondary-color;
+    font-family: $font-heading;
+    margin: 0;
+    font-size: 2em;
+}
+h3:hover{
+    color: $main-color;
+}
+}
+.boxsection4{
+a{
+    text-decoration: none;
+}
+background-image: url('asset/Sides&Extras.jpg');
+@include boxsections();
+height: 22.4%;
+display: flex;
+justify-content: center;
+align-items: center;
+h3{
+    color: $secondary-color;
+    font-family: $font-heading;
+    margin: 0;
+    font-size: 2em;
+}
+h3:hover{
+    color: $main-color;
+}
+}
+.boxsection5{
+a{
+    text-decoration: none;
+}
+background-image: url('asset/MonthlyMealDeals.jpg');
+@include boxsections();
+height: 22.42%;
+display: flex;
+justify-content: center;
+align-items: center;
+h3{
+    font-family: $font-heading;
+    color: $secondary-color;
+    margin: 0;
+    font-size: 1.8em;
+}
+h3:hover{
+    color: $main-color;
+}
+}
+.boxsection6{
+a{
+    text-decoration: none;
+}
+background-image: url('asset/ChefsSpecial.jpg');
+@include boxsections();
+height: 22.42%;
+display: flex;
+justify-content: center;
+align-items: center;
+h3{
+    font-family: $font-heading;
+    color: $secondary-color;
+    margin: 0;
+    font-size: 1.8em;
+}
+h3:hover{
+    color: $main-color;
+}
+}
+.boxsection7{
+a{
+    text-decoration: none;
+}
+background-image: url('asset/StudentDiscount.jpg');
+@include boxsections();
+height: 22.42%;
+display: flex;
+justify-content: center;
+align-items: center;
+h3{
+    font-family: $font-heading;
+    color: $secondary-color;
+    margin: 0;
+    font-size: 1.8em;
+}
+h3:hover{
+    color: $main-color;
+}
+}
+.boxsection8{
+a{
+    text-decoration: none;
+}
+background-image: url('asset/DailyPlaylist.jpg');
+@include boxsections();
+height: 22.42%;
+display: flex;
+justify-content: center;
+align-items: center;
+h3{
+    font-family: $font-heading;
+    color: $secondary-color;
+    margin: 0;
+    font-size: 1.8em;
+}
+h3:hover{
+    color: $main-color;
+}
+}

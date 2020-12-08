@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/base-min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto&family=Orbitron:wght@500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="app home">
+        <header>
+            <i class="fas fa-cog"></i>
+            <div class="divide">
+                <h0>Seoul Night</h0>
+                <h0> 서 울 나 이 트</h0>
+            </div>
+            <div class="tableorder">
+                <a href="Tableorder.html"><i class="fas fa-file-alt"></i></a>
+            </div>
+        </header>
+        <header2>
+            <nav2 class="slide">
+                <div class="top">
+                    <h1>Settings</h1>
+                    <i class="fas fa-times"></i>
+                </div>
+                <div class="user"><i class="fas fa-user-alt"></i></div>
+                <h2>Anthony020674@gmail.com</h2>
+
+                <ul class="content">
+
+                    <li><a href=""><i class="fas fa-history"></i>Purchase History</a></li>
+
+                    <li><a href=""><i class="fas fa-stopwatch"></i>Track Order</a></li>
+
+                    <li><a href=""><i class="fas fa-dollar-sign"></i>Billing and Payments</a></li>
+
+                    <li><a href=""><i class="fas fa-phone-alt"></i>Call us now</a></li>
+
+                    <li><a href=""><i class="fas fa-redo"></i>Updates</a></li>
+
+                    <li><a href=""><i class="fas fa-sign-out-alt"></i>Log out</a></li>
+                </ul>
+                </nav>
+        </header2>
+
+
+        <main>
+            <div class="container">
+                <div class="greenboxtableorder">
+                    <h4>Table Order</h4>
+                    <h5>Please come to the front counter to Pay</h5>
+                    <h5>OR</h5>
+                    <h5>If you have already paid please show receipt to staff member </h5>
+                    <p1>Thank you for coming ! & We hope you had a wonderful time at Seoul Night 서 울 나 이 트.</p1>
+                    <p2>The reciept will be sent to your Email.</p2>
+                </div>
+                <div class="greenboxreservation">
+                    <h4>Reservation</h4>
+                    <h5>Your Reservation is completed !</h5>
+                    <p1>The reservation detail and receipt (if you have purchased food) will be sent to your Email. Food
+                        will be prepared and cooked after you have arrived to the bar.</p1>
+                    <p2>*A friendly reminder to bring your ID as we will check before you enter the premises.</p2>
+                </div>
+                <div class="greenboxpickup">
+                    <h4>Pick Up</h4>
+                    <h5>Your pick up order has been completed !</h5>
+                    <p1>Please come to the front counter to pick up your food. Payments can be made at the front counter
+                        if you need to pay. If you already made an online payment, the reciept will be sent to your
+                        Email. </p1>
+                    <p2>Thank you for choosing Seoul Night 서 울 나 이 트.</p2>
+        </main>
+        <footer>
+            <div class="footergroup">
+                <a href="Home.html"><i class="fas fa-home">
+                        <h2>Home</h2>
+                    </i></a>
+                <a href="Menu.html"><i class="fas fa-utensils">
+                        <h2>Menu</h2>
+                    </i></a>
+                <a href="Reservation.html"><i class="fas fa-book-open">
+                        <h2>Reservation</h2>
+                    </i></a>
+                <a href="Pickup.html"><i class="fas fa-shopping-bag">
+                        <h2>Pick up</h2>
+                    </i></a>
+                <a href="Specials.html"><i class="fas fa-tag">
+                        <h2>Specials</h2>
+                    </i></a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+
+        //when clicking on bars, remove class hide from nav
+        $('.fa-cog').on('click', function () {
+            $('nav2').removeClass('slide')
+        })
+
+        //when clicking on cross, add class hide from nav
+        $('.fa-times').on('click', function () {
+            $('nav2').addClass('slide')
+        })
+
+    </script>
+</body>
+
+</html>
